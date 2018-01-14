@@ -175,7 +175,13 @@
 ;(display step8)
 ;(newline)
 
-sdfwsefqaef
+;start step9
+(define dummy (build-list N (lambda (x) (+ x 1))))                                                                ;dummy contains all the natural numbers from 1 to N
+(define step9 (diff (append step6 step8) dummy))                                                                  
+;(display step9)
+;(newline)
+;end step9
+
 
 
 
